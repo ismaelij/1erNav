@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: var(--bask);
+    font-family: var(--cinzel);
 }
 
 :root{
@@ -18,30 +18,33 @@
     --cinzel: 'Cinzel', serif;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 header{
-    background-color: white;
-    color: black;
-    
-    /* background-color: black;
-    color: white; */
-    
+    background-color: rgba(15, 34, 58, 0.8);
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
-    box-shadow: 5px 0 10px rgb(0 0 0);
+    box-shadow: 5px 0 10px rgb(0 0 6);
 }
 
-
-
-
 header h2{
-    font-family: var(--cinzel);
     font-weight: 800;
     font-size: 60px;
     margin-left: 20px;
+    color: whitesmoke ;
+}
+
+header h3{
+    color: whitesmoke;
+    /* text-decoration: overline; */
+
+    position: relative; /** Le puse Relative para acomodar el h3 al lado del h2, ya que con space between me quedaban muy alejados */
+    right: 580px;
+    top: 15px;
 }
 
 ul{
@@ -55,20 +58,117 @@ li{
 }
 
 a{
+    font-weight:600;
     padding: 5px 20px;
-    color: black;
-    /* color: white; */
+    color: whitesmoke;
     text-decoration: none;
     font-size: 18px;
-    display: block;
+    padding: 12px;
 }
 
-a:hover{
-    background-color: gray;
-    border-radius: 20px;
-    transition: .3s;
-    cursor: pointer;
+._a-nav:hover{
+    color: goldenrod;
+    transition: 0.5s;
 }
 
+main{
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 80px;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.div-text h2{
+    font-size: 35px;
+}
+
+.div-text p{
+    max-width: 450px;
+    font-weight: 500;
+}
+
+.div_buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.button{
+    border: 2px solid rgba(15, 34, 58, 0.8);
+    padding: 15px 20px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.Proybutton{
+    background-color: rgba(15, 34, 58, 0.8);
+    color: goldenrod;
+}
+
+.Contbutton{
+    color: rgba(15, 34, 58, 0.8);
+}
+
+img{
+    width: 400px;
+    height: auto;
+    border: 2px solid rgba(15, 34, 58, 0.8);
+    border-radius: 8px;
+}
+
+
+
+
+/** Practicando MQ */
+@media (max-width: 575.98px){
+    .hero{
+        margin-top: 30px;
+        /* background-color: salmon; */
+        height: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+    .div-text p{
+        
+    }
+    header{
+        width: 100%;
+    }
+    header h3{
+        visibility: hidden;
+        /* right: 100px; */
+    }
+    nav{
+        /* display: block; */
+        position: relative;
+        right: 40px;
+    }
+
+    img{
+        position: relative;
+        width: 440px;
+        bottom: 40px;
+        right: 8px;
+        
+    }
+    .div-text{
+       /*  background-color: aqua; */
+    }
+}
 
 
