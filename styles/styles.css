@@ -66,12 +66,12 @@ a{
 }
 
 ._a-nav:hover{
-    color: goldenrod;
+    text-decoration: underline;
     transition: 0.5s;
 }
 
 main{
-    background-color: #2B7882;  
+    background-color: #0c0029;  
 }
 
 .hero{
@@ -87,17 +87,17 @@ main{
     flex-direction: column;
     gap: 30px;
     background-color: rgba(15, 34, 58, 0.8);
-    border-radius: 6px;
+    border-radius: 8px;
     padding: 20px;
 }
 
 .div-text h2{
     font-size: 35px;
-    color:#BF7140 ;
+    color:whitesmoke ;
 }
 
 .div-text p{
-    color: #BF7140;
+    color: whitesmoke;
     max-width: 600px;
     font-weight: 500;
     font-size: 18px;
@@ -109,10 +109,10 @@ main{
 }
 
 .button{
-    border: 2px solid rgba(15, 34, 58, 0.8);
+    border: 5px solid #422060;
     padding: 15px 20px;
     font-weight: 800;
-    border-radius: 5px;
+    border-radius: 30px;
 }
 .Proybutton{
     background-color: rgba(15, 34, 58, 0.8);
@@ -126,7 +126,6 @@ main{
 img{
     width: 500px;
     height: 380px;
-    border: 4px solid rgba(15, 34, 58, 0.8);
     border-radius: 8px;
     margin-top: 8px;
 }
@@ -145,7 +144,7 @@ img{
     background-color: rgba(15, 34, 58, 0.8);
     padding: 20px;
     border-radius: 6px;
-    color:#BF7140 ;
+    color:whitesmoke;
     
 }
 
