@@ -18,10 +18,6 @@
     --cinzel: 'Cinzel', serif;
 }
 
-body{
-    background-color: whitesmoke;
-}
-
 header{
     background-color: rgba(15, 34, 58, 0.8);
     height: 70px;
@@ -29,6 +25,9 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 0 10px rgb(0 0 6);
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 header h2{
@@ -43,7 +42,7 @@ header h3{
     /* text-decoration: overline; */
 
     position: relative; /** Le puse Relative para acomodar el h3 al lado del h2, ya que con space between me quedaban muy alejados */
-    right: 580px;
+    right: 570px;
     top: 15px;
 }
 
@@ -72,35 +71,36 @@ a{
 }
 
 main{
-    /* padding: 50px; */
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
-    
-    
+    background-color: #2B7882;  
 }
 
 .hero{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    gap: 80px;
+    height: 100vh;
+    gap: 30px;
 }
 
 .div-text{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    background-color: rgba(15, 34, 58, 0.8);
+    border-radius: 6px;
+    padding: 20px;
 }
 
 .div-text h2{
     font-size: 35px;
+    color:#BF7140 ;
 }
 
 .div-text p{
-    max-width: 450px;
+    color: #BF7140;
+    max-width: 600px;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .div_buttons{
@@ -120,16 +120,40 @@ main{
 }
 
 .Contbutton{
-    color: rgba(15, 34, 58, 0.8);
+    color: whitesmoke;
 }
 
 img{
-    width: 400px;
-    height: auto;
-    border: 2px solid rgba(15, 34, 58, 0.8);
+    width: 500px;
+    height: 380px;
+    border: 4px solid rgba(15, 34, 58, 0.8);
     border-radius: 8px;
+    margin-top: 8px;
 }
 
+.section2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.section2{
+    /* background-color: blue; */
+    padding: 20px 0;
+}
+.art-text{
+    background-color: rgba(15, 34, 58, 0.8);
+    padding: 20px;
+    border-radius: 6px;
+    color:#BF7140 ;
+    
+}
+
+.art-text p{
+    max-width: 1210px;
+    font-weight: 500;
+    font-size: 18px;
+}
 
 
 
@@ -156,7 +180,7 @@ img{
     nav{
         /* display: block; */
         position: relative;
-        right: 40px;
+        right: 40pxgit ;
     }
 
     img{
@@ -168,6 +192,7 @@ img{
     }
     .div-text{
        /*  background-color: aqua; */
+
     }
 }
 
