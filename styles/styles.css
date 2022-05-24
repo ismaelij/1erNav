@@ -69,11 +69,11 @@ a{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    width: 510px;
+    width: 385px;
     border-radius: 10px;
     background-color: var(--blue);
     color: whitesmoke;
-    gap: 20px;
+    gap: 30px;
 }
 
 .div-text p{
@@ -84,6 +84,7 @@ a{
 }
 
 .div-text h2{
+    text-align: center;
     color: var(--yellow);
 }
 
