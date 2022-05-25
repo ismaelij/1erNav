@@ -63,13 +63,14 @@ a{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    height: 78vh;
 }
 
 .div-text{
     display: flex;
     flex-direction: column;
     padding: 15px;
-    width: 410px;
+    width: 400px;
     border-radius: 10px;
     background-color: var(--blue);
     color: whitesmoke;
