@@ -63,7 +63,7 @@ a{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 78vh;
+    /* height: 70vh; */
 }
 
 .div-text{
@@ -97,7 +97,7 @@ a{
 }
 
 img{
-    width: 70%;
+    width: 80%;
     height: auto;
     border: 2px solid var(--blue);
     border-radius: 8px;
